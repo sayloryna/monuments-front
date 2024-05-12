@@ -1,9 +1,11 @@
-import createMonumentCard from "./monument/createMonumentCard";
-import { type Monument } from "./types";
-
+import createMonumentCard from "../monumentCard/createMonumentCard";
+import { type Monument } from "../types";
+import "./styles.css";
 const createMonumentList = (monuments: Monument[]): HTMLUListElement => {
   const monumentList = document.createElement("ul");
+
   monumentList.classList.add("monuments");
+
   monuments.forEach((monument) => {
     const monumentContainer = document.createElement("li");
     const monumentCard = createMonumentCard(monument);

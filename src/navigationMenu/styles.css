@@ -2,6 +2,7 @@
   display: flex;
   gap: 16px;
   font-size: 1.3rem;
+  margin-bottom: 16px;
 }
 
 .main-navigation-menu__link {
@@ -10,7 +11,7 @@
 }
 
 .main-navigation-menu__link.selected {
-  background-color: #ccc;
+  background-color: #ddd;
 }
 
 .main-navigation-menu__link:hover {

@@ -1,0 +1,11 @@
+.monuments {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.monument {
+  background-color: #eee;
+  padding: 4px 16px;
+  border-radius: 5px;
+}

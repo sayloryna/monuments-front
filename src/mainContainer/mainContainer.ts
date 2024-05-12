@@ -1,8 +1,10 @@
 import createMainHeader from "../header/header";
+import createMonumentList from "../monuments/monumentsList/createMonumentsList";
+import { type Monument } from "../monuments/types";
 import createMainNavigationMenu from "../navigationMenu/navigatioMenu";
 import "./styles.css";
 
-const renderMainContainer = () => {
+const renderMainContainer = (monuments: Monument[]) => {
   const root = document.querySelector(".root");
 
   const mainContainer = document.createElement("div");
@@ -14,8 +16,9 @@ const renderMainContainer = () => {
   }
 
   const navigationMenu = createMainNavigationMenu();
+  const monumentList = createMonumentList(monuments);
 
-  mainContainer.append(header, navigationMenu);
+  mainContainer.append(header, navigationMenu, monumentList);
   root.appendChild(mainContainer);
 };
 
