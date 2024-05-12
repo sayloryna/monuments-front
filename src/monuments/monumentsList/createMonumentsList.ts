@@ -1,4 +1,4 @@
-import createMonumentCard from "../monumentCard/createMonumentCard";
+import createMonumentCard from "../monumentCard/monumentCard";
 import { type Monument } from "../types";
 import "./styles.css";
 const createMonumentList = (monuments: Monument[]): HTMLUListElement => {

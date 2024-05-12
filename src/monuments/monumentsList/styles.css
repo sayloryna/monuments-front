@@ -6,6 +6,18 @@
 
 .monument {
   background-color: #eee;
-  padding: 4px 16px;
+  padding: 8px 16px;
   border-radius: 5px;
+}
+
+.monument__info {
+  display: flex;
+  gap: 8px;
+  padding: 4px;
+}
+
+.monument__data {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
