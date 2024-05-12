@@ -1,5 +1,6 @@
 :root {
   --main-background-color: #0077d4;
+  --secondary-background-color: ##ccc;
 }
 
 *,
@@ -14,7 +15,9 @@ body {
   background-color: var(--main-background-color);
 }
 
-h1 {
+h1,
+h2,
+h3 {
   margin: 0;
 }
 

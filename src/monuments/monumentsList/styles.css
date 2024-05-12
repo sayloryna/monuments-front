@@ -1,0 +1,29 @@
+.monuments {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.monument {
+  background-color: #eee;
+  padding: 16px;
+  border-radius: 5px;
+  box-shadow: 8px 8px 24px 1px #111111c2;
+  font-size: large;
+}
+
+.monument__info {
+  display: flex;
+  gap: 16px;
+  padding: 8px;
+
+  @media (width < 600px) {
+    flex-direction: column;
+  }
+}
+
+.monument__data {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
