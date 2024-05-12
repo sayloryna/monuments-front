@@ -1,3 +1,3 @@
 import renderMainContainer from "./mainContainer/mainContainer";
-import "./style.css";
+import "./styles.css";
 renderMainContainer();

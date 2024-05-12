@@ -1,4 +1,5 @@
 import createMainHeader from "../header/header";
+import createMainNavigationMenu from "../navigationMenu/navigatioMenu";
 import "./styles.css";
 
 const renderMainContainer = () => {
@@ -12,7 +13,9 @@ const renderMainContainer = () => {
     throw Error("Element not found");
   }
 
-  mainContainer.appendChild(header);
+  const navigationMenu = createMainNavigationMenu();
+
+  mainContainer.append(header, navigationMenu);
   root.appendChild(mainContainer);
 };
 

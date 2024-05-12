@@ -1,0 +1,19 @@
+.main-navigation-menu {
+  display: flex;
+  gap: 16px;
+  font-size: 1.3rem;
+}
+
+.main-navigation-menu__link {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.main-navigation-menu__link.selected {
+  background-color: #ccc;
+}
+
+.main-navigation-menu__link:hover {
+  text-decoration: underline;
+  background-color: #cccccca1;
+}
