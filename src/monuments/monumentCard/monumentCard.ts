@@ -9,10 +9,11 @@ const createMonumentCard = (monument: Monument): HTMLElement => {
   <div class="monument__info">
     <img class="monument__image" src="${monument.imageUrl}" alt="monumento" height=200 width=200 />
     <div class="monument__data">
-      <h3>Descripción</h3>
-      <span class="monument__description">${monument.description}</span>
-      <h3>Localización</h3>
-      <spanclass="monument__location>
+    <span class="monument__description">
+    <h3>Descripción</h3>
+    ${monument.description}</span>
+    <spanclass="monument__location>
+    <h3>Localización</h3>
         ${monument.city}, ${monument.country}
       </span>
     </div>

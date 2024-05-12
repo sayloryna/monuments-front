@@ -1,7 +1,8 @@
 .main-navigation-menu {
   display: flex;
   gap: 16px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
+  font-weight: 400;
   margin-bottom: 16px;
 }
 
@@ -11,10 +12,10 @@
 }
 
 .main-navigation-menu__link.selected {
-  background-color: #ddd;
+  border-bottom: 3px solid #242424;
 }
 
 .main-navigation-menu__link:hover {
-  text-decoration: underline;
+  border-bottom: 3px solid #353535;
   background-color: #cccccca1;
 }
