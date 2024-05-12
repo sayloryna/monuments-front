@@ -1,0 +1,33 @@
+:root {
+  --main-background-color: #0077d4;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--main-background-color);
+}
+
+h1 {
+  margin: 0;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
